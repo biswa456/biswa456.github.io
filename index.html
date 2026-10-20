@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Biswabijayee Dash — data analytics, SQL, Python, data quality and big data projects.">
+  <title>Biswabijayee Dash | Data Portfolio</title>
+  <style>
+    :root{--bg:#f6f8fb;--ink:#172033;--muted:#5e687b;--line:#dfe5ef;--card:#fff;--accent:#2257c7;--accent2:#dce8ff;--dark:#101a2e}
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+    .wrap{width:min(1080px,92%);margin:auto}
+    header{position:sticky;top:0;background:rgba(246,248,251,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:10}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:68px}
+    .brand{font-weight:800;letter-spacing:-.03em;color:var(--ink)}
+    .navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:.94rem}
+    .navlinks a{color:var(--muted)}
+    .hero{padding:86px 0 68px;background:radial-gradient(ellipse at 85% 15%,#dce8ff 0,transparent 38%),var(--bg)}
+    .eyebrow{font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:var(--accent)}
+    h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.05;letter-spacing:-.055em;margin:15px 0 20px;max-width:820px}
+    h2{font-size:clamp(1.7rem,3vw,2.4rem);letter-spacing:-.04em;line-height:1.15;margin:0 0 14px}
+    h3{margin:0 0 8px;font-size:1.18rem}
+    .lead{font-size:1.15rem;max-width:720px;color:var(--muted)}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;padding:11px 17px;border-radius:10px;background:var(--accent);color:white;font-weight:700;border:1px solid var(--accent)}
+    .btn.secondary{background:transparent;color:var(--ink);border-color:var(--line)}
+    section{padding:66px 0;scroll-margin-top:84px}
+    .section-intro{color:var(--muted);max-width:720px;margin:0 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 28px rgba(24,42,75,.035)}
+    .taglist{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+    .tag{background:#edf2fb;color:#354563;border-radius:999px;padding:4px 10px;font-size:.82rem;font-weight:650}
+    .muted{color:var(--muted)}
+    .project-top{display:flex;justify-content:space-between;gap:12px;align-items:start}
+    .label{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+    .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .step{border-left:3px solid var(--accent);padding:5px 0 5px 15px}
+    .skills{display:flex;gap:10px;flex-wrap:wrap}
+    .skill{background:white;border:1px solid var(--line);border-radius:10px;padding:10px 13px}
+    .contact{background:var(--dark);color:#fff;border-radius:24px;padding:38px}
+    .contact .muted{color:#c1cadd}
+    footer{padding:26px 0 38px;color:var(--muted);font-size:.9rem}
+    @media(max-width:720px){.navlinks{gap:12px;font-size:.85rem}.brand{font-size:.92rem}.grid,.steps{grid-template-columns:1fr}.hero{padding:62px 0 50px}section{padding:48px 0}.contact{padding:26px}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap" aria-label="Main navigation">
+    <a class="brand" href="#home">BD / DATA PORTFOLIO</a>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="eyebrow">Data Analytics · SQL · Python</div>
+      <h1>Turning data into clear, useful answers.</h1>
+      <p class="lead">I’m Biswabijayee Dash, a data and software professional with an MSc in Big Data Analytics. I enjoy exploring datasets, improving data quality and using analytical tools to make information easier to understand.</p>
+      <div class="actions">
+        <a class="btn" href="#projects">Explore my projects</a>
+        <a class="btn secondary" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="eyebrow">A little about me</div>
+      <h2>Analytical thinking, practical problem-solving.</h2>
+      <p class="section-intro">My background spans data analysis, data validation, software engineering and test automation. I bring attention to detail, a structured approach to investigating problems and experience working with teams to understand requirements and deliver reliable results.</p>
+      <div class="steps">
+        <div class="step"><h3>Explore</h3><p class="muted">Understand the question, inspect the data and look for patterns or inconsistencies.</p></div>
+        <div class="step"><h3>Improve</h3><p class="muted">Use SQL and Python to prepare data, validate assumptions and make analysis more reliable.</p></div>
+        <div class="step"><h3>Explain</h3><p class="muted">Present findings clearly and focus on what the results mean for the original question.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" style="background:#eef2f8">
+    <div class="wrap">
+      <div class="eyebrow">Selected work</div>
+      <h2>Projects</h2>
+      <p class="section-intro">These projects are based on my MSc work. I’m adding the notebooks, methods and results so that each project can be reviewed in detail. Replace the example links below with your actual GitHub repositories or reports before publishing.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="project-top"><div class="label">Research · Data analysis</div></div>
+          <h3>Crime, Social Deprivation & Property Data</h3>
+          <p class="muted">Combined and prepared data from multiple sources to explore relationships between crime, social deprivation and property-related measures.</p>
+          <div class="taglist"><span class="tag">ETL</span><span class="tag">R</span><span class="tag">Hive</span><span class="tag">Tableau</span></div>
+          <p><strong>What to show:</strong> data sources, cleaning steps, analysis questions, key charts and limitations.</p>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">Add project repository ↗</a>
+        </article>
+        <article class="card">
+          <div class="project-top"><div class="label">Dissertation · Benchmarking</div></div>
+          <h3>Privacy vs. Performance</h3>
+          <p class="muted">Benchmarked k-anonymity, differential privacy and pseudonymisation approaches, studying how anonymisation affected machine-learning model performance.</p>
+          <div class="taglist"><span class="tag">Python</span><span class="tag">Privacy</span><span class="tag">Statistics</span><span class="tag">Machine Learning</span></div>
+          <p><strong>What to show:</strong> experimental design, evaluation metrics, comparison charts and conclusions.</p>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">Add project repository ↗</a>
+        </article>
+        <article class="card">
+          <div class="project-top"><div class="label">Portfolio project · To build</div></div>
+          <h3>SQL Business Analysis</h3>
+          <p class="muted">A planned project using a public dataset to answer a set of business questions with SQL and communicate findings in a concise report.</p>
+          <div class="taglist"><span class="tag">SQL</span><span class="tag">Data cleaning</span><span class="tag">Business questions</span></div>
+          <p><strong>Suggested deliverables:</strong> SQL scripts, data dictionary, five business questions and a short findings summary.</p>
+          <span class="muted">Publish when completed</span>
+        </article>
+        <article class="card">
+          <div class="project-top"><div class="label">Portfolio project · To build</div></div>
+          <h3>Data Quality Checks with Python</h3>
+          <p class="muted">A planned demonstration of repeatable checks for missing values, duplicates, valid ranges and consistency between fields.</p>
+          <div class="taglist"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Data quality</span></div>
+          <p><strong>Suggested deliverables:</strong> reusable checks, sample test data, summary of failures and clear documentation.</p>
+          <span class="muted">Publish when completed</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="eyebrow">Tools I use</div>
+      <h2>Skills & technologies</h2>
+      <p class="section-intro">A practical toolkit for working with data and investigating technical problems.</p>
+      <div class="skills">
+        <span class="skill">SQL</span><span class="skill">Python</span><span class="skill">Pandas</span><span class="skill">NumPy</span><span class="skill">R</span><span class="skill">Tableau</span><span class="skill">Power BI</span><span class="skill">Hive</span><span class="skill">Hadoop</span><span class="skill">ETL</span><span class="skill">Data validation</span><span class="skill">Data quality</span><span class="skill">Git</span><span class="skill">Jenkins / CI/CD</span><span class="skill">ChatGPT for SQL and Python support</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" style="background:#eef2f8">
+    <div class="wrap">
+      <div class="eyebrow">Professional background</div>
+      <h2>Experience & education</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Analytics Consulting Intern</h3><p class="muted">Cloudy People · London · Jun 2024 – May 2025</p>
+          <p>Worked with Python and SQL on data validation, quality checks, troubleshooting and data-processing workflows.</p>
+        </div>
+        <div class="card">
+          <h3>Senior Test Engineer</h3><p class="muted">Coforge Limited · Dec 2021 – Aug 2023</p>
+          <p>Built automated tests, investigated failures and collaborated with engineering teams to support reliable software releases.</p>
+        </div>
+        <div class="card">
+          <h3>Software Engineer</h3><p class="muted">Cavisson System India · Feb 2019 – Nov 2021</p>
+          <p>Contributed to software development, technical troubleshooting and team delivery.</p>
+        </div>
+        <div class="card">
+          <h3>MSc Big Data Analytics — First Class</h3><p class="muted">Sheffield Hallam University · 2023–2025</p>
+          <p>Focused on data management, analytics, big data technologies and research using real-world datasets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <div class="eyebrow" style="color:#a9c4ff">Contact</div>
+        <h2>Let’s connect.</h2>
+        <p class="muted">I’m interested in data analytics, SQL, data quality and data engineering opportunities, and I’m always happy to connect with people working with data.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:bijayeerahul@gmail.com">Email me</a>
+          <a class="btn secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Add LinkedIn URL</a>
+          <a class="btn secondary" href="https://github.com/" target="_blank" rel="noreferrer">Add GitHub URL</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Biswabijayee Dash · Built as a simple, responsive portfolio.</div></footer>
+</body>
+</html>
